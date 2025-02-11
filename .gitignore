@@ -1,0 +1,36 @@
+# Binaries for programs and libraries
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package and dependency directories
+/vendor/
+
+# Build and test outputs
+*.out
+*.test
+
+# Coverage reports
+*.cover
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor settings directories/files
+.vscode/
+.idea/
+
+# Eğer sqlc tarafından generate edilen dosyalar varsa, onları aşağıdaki satırların yorumunu kaldırarak ignore edebilirsiniz
+# sqlc/*.go
+
+# ÖNEMLİ:
+# Aşağıdaki satırlar, Makefile, sqlc ve migrate dizinlerinin git tarafından takip edilmesini sağlar.
+!Makefile
+!sqlc/
+!migrate/

@@ -1,0 +1,1 @@
+-> After migration up -> one more table named schema_migrations is created . it shows migration is succesful or not.
